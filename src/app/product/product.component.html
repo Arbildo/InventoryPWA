@@ -1,8 +1,8 @@
-
-
-
-<h2 *ngFor="let product of products"> {{product}} </h2>
-
+<ul>
+  <li *ngFor="let item of products; let i = index">
+     {{item}}
+  </li>
+</ul>
 
 <!--<table>-->
 <!--  <thead>-->
@@ -16,4 +16,4 @@
 <!--  </tr>-->
 <!--  </tbody>-->
 <!--</table>-->
-ñ
+
